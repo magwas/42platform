@@ -27,7 +27,7 @@ A csoportokban tett hozzászólások publikusak, azokért a hozzászóló válla
 </documentation>
       </element>
       <element xsi:type="archimate:BusinessCollaboration" id="b55e1022" name="többi csoport">
-        <documentation>A 42 csoportokból áll. Mindenkit szívesen látunk, bármit gondol is a világról. Ahhoz, hogy egy javaslatból a 42 egyeztetett véleménye legyen, szükséges az, hogy mindenkinek, minden csoportnak meg legyen a lehetősége ezt a véleményt formálni.
+        <documentation>A 42 csoportokból áll. Mindenkit szívesen látunk, bármit gondol is a világról. Ahhoz, hogy egy javaslatból a 42 felületén kialakult konszenzus legyen, szükséges az, hogy mindenkinek, minden csoportnak meg legyen a lehetősége ezt a véleményt formálni.
 Ha sokan leszünk, és azt látjuk hogy nagy a zaj, a csoportokból is csoportokat fogunk képezni.
 De az is lehet, hogy ti akartok ilyen nagyobb csoportokat. Pl. egy már meglévő 600 fős szervezetet tíz csoportba rendezve.
 </documentation>
@@ -132,9 +132,9 @@ Plenáris döntéshozatal esetén ha egy csoportban készülőben van egy altern
 A szavazás adott ideig tart (2 hét).
 </documentation>
       </element>
-      <element xsi:type="archimate:BusinessObject" id="f26f6b9e" name="Egyeztetett vélemény">
-        <documentation>Egyeztetett véleménynek tekintjük azt a javaslatot, amelyik megnyerte a szavazást.
-A &quot;fentiek egyike sem&quot; nyerése esetén az az egyeztetett vélemény, hogy nincs megegyezés. Ilyenkor érdemes még dolgozni egy kicsit a kompromisszum megtalálásán.
+      <element xsi:type="archimate:BusinessObject" id="f26f6b9e" name="a 42 felületén kialakult konszenzus">
+        <documentation>A 42 felületén kialakult konszenzusnak tekintjük azt a javaslatot, amelyik megnyerte a szavazást.
+A &quot;fentiek egyike sem&quot; nyerése esetén az az egyeztetett konszenzus, hogy nincs megegyezés. Ilyenkor érdemes még dolgozni egy kicsit a kompromisszum megtalálásán.
 </documentation>
       </element>
       <element xsi:type="archimate:BusinessProcess" id="98ef95f0" name="Döntéshozatali folyamat">
@@ -239,10 +239,10 @@ A &quot;fentiek egyike sem&quot; nyerése esetén az az egyeztetett vélemény, 
           <documentation>A csoport egyeztetett véleménye egy a csoport tagjait érintő kérdésről. (pl. egy véleményfelmérés kimenete)</documentation>
         </element>
         <element xsi:type="archimate:BusinessObject" id="aba4e192" name="42-n belül kihírdetésre">
-          <documentation>A 42 egyeztetett véleménye, amivel kapcsolatban nem várjuk hogy a civil játszótéren kívül bárki bármit tegyen. (pl. egy véleményfelmérés kimenete)</documentation>
+          <documentation>A 42 felületén kialakult konszenzus, amivel kapcsolatban nem várjuk hogy a civil játszótéren kívül bárki bármit tegyen. (pl. egy véleményfelmérés kimenete)</documentation>
         </element>
         <element xsi:type="archimate:BusinessObject" id="035dafc7" name="42 által kihirdetésre">
-          <documentation>A 42 legmagasabb szintű döntése. A 42 véleményét tükrözi, amely alapján a 42 megengedi a parlamenti pártoknak, és el is várja tőlük, hogy a megfelelő lépéseket megtegyék.</documentation>
+          <documentation>A 42 legmagasabb szintű döntése. A 42 felületén kialakult konszenzus tükrözi, amely alapján a 42 megengedi a parlamenti pártoknak, és el is várja tőlük, hogy a megfelelő lépéseket megtegyék.</documentation>
         </element>
         <element xsi:type="archimate:BusinessObject" id="dd5fabfd" name="Csoport által kihirdetésre">
           <documentation>Egy csoport egyeztetett véleménye, amit a csoport a 42 tagjai körében fontosnak tart elmondani. Pl. felhívás valamilyen akcióra.</documentation>
@@ -421,20 +421,20 @@ A plenáris döntéshozatalban megjelenő javaslatoknak a szavazás idejére ren
         </child>
       </element>
       <element xsi:type="archimate:BusinessProcess" id="59228de0" name="csoport döntéshozatal">
-        <documentation>A csoporton belüli döntéshozatal a fennt ismertetett módon zajlik. Bemenete a formálissá váltjavaslat, eredménye a csoport véleménye.
+        <documentation>A csoporton belüli döntéshozatal a fennt ismertetett módon zajlik. Bemenete a formálissá váltjavaslat, eredménye a csoport konszenzusa.
 </documentation>
       </element>
       <element xsi:type="archimate:BusinessProcess" id="83f83bbb" name="plenáris döntéshozatal">
-        <documentation>A plenáris döntéshozatal bemenete(i) csoport vélemény(ek). Kimenete a 42 véleménye.</documentation>
+        <documentation>A plenáris döntéshozatal bemenete(i) csoport vélemény(ek). Kimenete a 42 felületén kialakult konszenzus.</documentation>
       </element>
-      <element xsi:type="archimate:BusinessObject" id="cd59a5d1" name="csoport vélemény">
-        <documentation>A csoport véleménye a szavazáson nyertes javaslat lesz.</documentation>
+      <element xsi:type="archimate:BusinessObject" id="cd59a5d1" name="csoport konszenzus">
+        <documentation>A csoport konszenzusa a szavazáson nyertes javaslat lesz.</documentation>
       </element>
       <element xsi:type="archimate:BusinessRole" id="322e550b" name="csoport szószóló">
         <documentation>A csoport véleményét a nyertes javaslat szószólója képviseli az adott ügyben.</documentation>
       </element>
-      <element xsi:type="archimate:BusinessObject" id="047d4683" name="A 42 véleménye (adott ügyben)">
-        <documentation>A plenáris döntéshozatal eredményét tekintjök az adott ügyben a 42 véleményének</documentation>
+      <element xsi:type="archimate:BusinessObject" id="047d4683" name="A 42 felületén kialakult konszenzus (adott ügyben)">
+        <documentation>A plenáris döntéshozatal eredményét tekintjök az adott ügyben a 42 felületén kialakult konszenzusnak</documentation>
       </element>
       <element xsi:type="archimate:BusinessRole" id="26a71412" name="A 42 szószólója (adott ügyben)">
         <documentation>A nyertes javaslat szószólója az adott ügyben a 42 szószólója lesz.

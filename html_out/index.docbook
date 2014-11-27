@@ -62,7 +62,7 @@
                <row>
                   <entry class="starter" valign="top">
                      <anchor id="b55e1022"/>többi csoport</entry>
-                  <entry class="starter" valign="top">A 42 csoportokból áll. Mindenkit szívesen látunk, bármit gondol is a világról. Ahhoz, hogy egy javaslatból a 42 egyeztetett véleménye legyen, szükséges az, hogy mindenkinek, minden csoportnak meg legyen a lehetősége ezt a véleményt formálni.<para/>Ha sokan leszünk, és azt látjuk hogy nagy a zaj, a csoportokból is csoportokat fogunk képezni.<para/>De az is lehet, hogy ti akartok ilyen nagyobb csoportokat. Pl. egy már meglévő 600 fős szervezetet tíz csoportba rendezve.</entry>
+                  <entry class="starter" valign="top">A 42 csoportokból áll. Mindenkit szívesen látunk, bármit gondol is a világról. Ahhoz, hogy egy javaslatból a 42 felületén kialakult konszenzus legyen, szükséges az, hogy mindenkinek, minden csoportnak meg legyen a lehetősége ezt a véleményt formálni.<para/>Ha sokan leszünk, és azt látjuk hogy nagy a zaj, a csoportokból is csoportokat fogunk képezni.<para/>De az is lehet, hogy ti akartok ilyen nagyobb csoportokat. Pl. egy már meglévő 600 fős szervezetet tíz csoportba rendezve.</entry>
                </row>
             </tbody>
          </tgroup>
@@ -123,11 +123,6 @@
                </row>
                <row>
                   <entry class="starter" valign="top">
-                     <anchor id="f26f6b9e"/>Egyeztetett vélemény</entry>
-                  <entry class="starter" valign="top">Egyeztetett véleménynek tekintjük azt a javaslatot, amelyik megnyerte a szavazást.<para/>A "fentiek egyike sem" nyerése esetén az az egyeztetett vélemény, hogy nincs megegyezés. Ilyenkor érdemes még dolgozni egy kicsit a kompromisszum megtalálásán.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
                      <anchor id="0d56975d"/>Elegendő támogatás gyűlt össze</entry>
                   <entry class="starter" valign="top">Egy javaslat formálissá válásához sqrt(N) vagy 5 támogatás kell, amelyik a kisebb. N a csoport taglétszáma.<para/>Ha nincs minimum csoport létszám, akkor 5.</entry>
                </row>
@@ -168,6 +163,11 @@
                </row>
                <row>
                   <entry class="starter" valign="top">
+                     <anchor id="f26f6b9e"/>a 42 felületén kialakult konszenzus</entry>
+                  <entry class="starter" valign="top">A 42 felületén kialakult konszenzusnak tekintjük azt a javaslatot, amelyik megnyerte a szavazást.<para/>A "fentiek egyike sem" nyerése esetén az az egyeztetett konszenzus, hogy nincs megegyezés. Ilyenkor érdemes még dolgozni egy kicsit a kompromisszum megtalálásán.</entry>
+               </row>
+               <row>
+                  <entry class="starter" valign="top">
                      <anchor id="3a584426"/>javaslatok további fényezése</entry>
                   <entry class="starter" valign="top">A szószóló a vitaidőszakban is módosíthat a javaslaton, ehhez a támogatók ellenvetésének hiánya kell.</entry>
                </row>
@@ -205,18 +205,23 @@
                </row>
                <row>
                   <entry class="starter" valign="top">
+                     <anchor id="047d4683"/>A 42 felületén kialakult konszenzus (adott ügyben)</entry>
+                  <entry class="starter" valign="top">A plenáris döntéshozatal eredményét tekintjök az adott ügyben a 42 felületén kialakult konszenzusnak</entry>
+               </row>
+               <row>
+                  <entry class="starter" valign="top">
                      <anchor id="26a71412"/>A 42 szószólója (adott ügyben)</entry>
                   <entry class="starter" valign="top">A nyertes javaslat szószólója az adott ügyben a 42 szószólója lesz.</entry>
                </row>
                <row>
                   <entry class="starter" valign="top">
-                     <anchor id="047d4683"/>A 42 véleménye (adott ügyben)</entry>
-                  <entry class="starter" valign="top">A plenáris döntéshozatal eredményét tekintjök az adott ügyben a 42 véleményének</entry>
+                     <anchor id="59228de0"/>csoport döntéshozatal</entry>
+                  <entry class="starter" valign="top">A csoporton belüli döntéshozatal a fennt ismertetett módon zajlik. Bemenete a formálissá váltjavaslat, eredménye a csoport konszenzusa.</entry>
                </row>
                <row>
                   <entry class="starter" valign="top">
-                     <anchor id="59228de0"/>csoport döntéshozatal</entry>
-                  <entry class="starter" valign="top">A csoporton belüli döntéshozatal a fennt ismertetett módon zajlik. Bemenete a formálissá váltjavaslat, eredménye a csoport véleménye.</entry>
+                     <anchor id="cd59a5d1"/>csoport konszenzus</entry>
+                  <entry class="starter" valign="top">A csoport konszenzusa a szavazáson nyertes javaslat lesz.</entry>
                </row>
                <row>
                   <entry class="starter" valign="top">
@@ -225,13 +230,8 @@
                </row>
                <row>
                   <entry class="starter" valign="top">
-                     <anchor id="cd59a5d1"/>csoport vélemény</entry>
-                  <entry class="starter" valign="top">A csoport véleménye a szavazáson nyertes javaslat lesz.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
                      <anchor id="83f83bbb"/>plenáris döntéshozatal</entry>
-                  <entry class="starter" valign="top">A plenáris döntéshozatal bemenete(i) csoport vélemény(ek). Kimenete a 42 véleménye.</entry>
+                  <entry class="starter" valign="top">A plenáris döntéshozatal bemenete(i) csoport vélemény(ek). Kimenete a 42 felületén kialakult konszenzus.</entry>
                </row>
             </tbody>
          </tgroup>
@@ -403,12 +403,12 @@
                   <row>
                      <entry class="starter" valign="top">
                         <anchor id="035dafc7"/>42 által kihirdetésre</entry>
-                     <entry class="starter" valign="top">A 42 legmagasabb szintű döntése. A 42 véleményét tükrözi, amely alapján a 42 megengedi a parlamenti pártoknak, és el is várja tőlük, hogy a megfelelő lépéseket megtegyék.</entry>
+                     <entry class="starter" valign="top">A 42 legmagasabb szintű döntése. A 42 felületén kialakult konszenzus tükrözi, amely alapján a 42 megengedi a parlamenti pártoknak, és el is várja tőlük, hogy a megfelelő lépéseket megtegyék.</entry>
                   </row>
                   <row>
                      <entry class="starter" valign="top">
                         <anchor id="aba4e192"/>42-n belül kihírdetésre</entry>
-                     <entry class="starter" valign="top">A 42 egyeztetett véleménye, amivel kapcsolatban nem várjuk hogy a civil játszótéren kívül bárki bármit tegyen. (pl. egy véleményfelmérés kimenete)</entry>
+                     <entry class="starter" valign="top">A 42 felületén kialakult konszenzus, amivel kapcsolatban nem várjuk hogy a civil játszótéren kívül bárki bármit tegyen. (pl. egy véleményfelmérés kimenete)</entry>
                   </row>
                   <row>
                      <entry class="starter" valign="top">
