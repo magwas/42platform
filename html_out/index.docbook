@@ -237,8 +237,8 @@
          </tgroup>
       </table>
    </section>
-   <section id="Tagság, csoport">
-      <title>Tagság, csoport</title>
+   <section id="3. Tagság, csoport">
+      <title>3. Tagság, csoport</title>
       <para/>
       <table class="elementtable">
          <tgroup cols="2">
@@ -267,6 +267,11 @@
                </row>
                <row>
                   <entry class="starter" valign="top">
+                     <anchor id="aa4feb5b"/>Egyéb adat</entry>
+                  <entry class="starter" valign="top">Vannak olyan adatok, amelyek szükségesek a támogatott folyamatokhoz, de nem segítik a val=színütlenségi szint csökkentését.</entry>
+               </row>
+               <row>
+                  <entry class="starter" valign="top">
                      <anchor id="086995ae"/>Egyéb csoport</entry>
                   <entry class="starter" valign="top">A tagok belátásuk szerint alakíthatnak csoportokat, vehetnek részt a csoportok munkájában.<para/>Ha a csoport irányítási ponthoz kapcsolódik, a nem elsődleges tagok nem tehetnek javaslatot, azt nem támogathatják.<para/>A nem elsődleges tagok hozzászólási jogosultságairól a csoport dönt.</entry>
                </row>
@@ -282,17 +287,173 @@
                </row>
                <row>
                   <entry class="starter" valign="top">
+                     <anchor id="e20bb440"/>Név, avatar</entry>
+                  <entry class="starter" valign="top">Igazából nem érdekes, hogy a regisztrált név egyezik-e a tag valódi nevével, és az avatarján ő szerepel-e.<para/>Mivel a név nem egyedi azonosító, nem alkalmas arra, hogy a valószínűtlenségi szintet csökkentsük vele.<para/>Annyi a lényege, hogy az emberek beszélgetés közben nagyjából felismerjék egymást.</entry>
+               </row>
+               <row>
+                  <entry class="starter" valign="top">
                      <anchor id="849cc4d6"/>azonosító adat</entry>
                   <entry class="starter" valign="top">Az azonosító adat mindaz az adat, amit a tagról a valószínűtlenségi szint alacsonyan tartása érdekében nyilvántartunk.</entry>
+               </row>
+               <row>
+                  <entry class="starter" valign="top">
+                     <anchor id="d6a9d512"/>email cím</entry>
+                  <entry class="starter" valign="top">Az email címre az értesítések kiküldéséhez, és a - legalábbis eleinte - szavazáshoz alkalmazott CIVS-hez szükséges.</entry>
+               </row>
+               <row>
+                  <entry class="starter" valign="top">
+                     <anchor id="064749eb"/>facebook account</entry>
+                  <entry class="starter" valign="top">A facebook account azonosítja a felhasználót, és létezik validált facebook account, ahol a facebook valamilyen valószínűtlenségi szinttel elvégzi a felhasználó azonosítását. Valószínűleg első körben ezt tudjuk használni.</entry>
+               </row>
+               <row>
+                  <entry class="starter" valign="top">
+                     <anchor id="fe65deec"/>személyi szám vagy személyi igazolvány szám</entry>
+                  <entry class="starter" valign="top">Ezek többé-kevésbé egyedi azonosítók.<para/>Hosszú távon jó megoldás lehet az, hogy a tagok egymásról tanúsítják, hogy megggyőződtek egymás valódiságáról ez alapján.<para/>A személyi szám a leginkább statikus, de adatvédelmi kérdéseket vet föl (amelyek nem feltétlenül megoldhatatlanok).<para/>A személyi igazolvány szám időben változhat.</entry>
                </row>
                <row>
                   <entry class="starter" valign="top">
                      <anchor id="c130e272"/>valószínűtlenségi szint</entry>
                   <entry class="starter" valign="top">A valószínűtlenségi szint azt mutatja meg, hogy mennyire valószíműtlen, hogy a tag valóban az, akinek mondja magát.<para/>Cél a tagok valószínűtlenségi szintjének leszorítása az 1:1 -hez minél közelebbi értékre, hiszen ettől függ a felmért vélemény valószínűtlenségi szintje is.</entry>
                </row>
+               <row>
+                  <entry class="starter" valign="top">
+                     <anchor id="5206ccdc"/>ügyfélkapu azonosító</entry>
+                  <entry class="starter" valign="top">Elméletileg lehetséges lenne ugyanolyan szinten meggyőződni a személyazonosságról, mint azt az elektronikus ügyintézésnél tesszük.<para/>Az ügyfélkapu interfésze nyilvános. Egy gond van, hogy csak állami hivatalok használhatják.<para/>Ha ezt megoldjuk, még mindig megeshet, hogy véletlenül vagy "véletlenül" problémák támadnak az interfésszel.</entry>
+               </row>
             </tbody>
          </tgroup>
       </table>
+   </section>
+   <section id="Folyamatok">
+      <title>Folyamatok</title>
+      <para/>
+      <section id="Belépés, csoportműveletek">
+         <title>Belépés, csoportműveletek</title>
+         <para/>
+         <table class="elementtable">
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <tbody>
+                  <row>
+                     <entry namest="c1" nameend="c2">
+                        <para>
+                           <figure>
+                              <title>Szervezeti folyamatok</title>
+                              <remark/>
+                              <mediaobject>
+                                 <imageobject>
+                                    <imagedata fileref="pics/da6e389b.png"/>
+                                 </imageobject>
+                              </mediaobject>
+                           </figure>
+                        </para>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="b3e09171"/>Csoport osztódás vagy beolvadás</entry>
+                     <entry class="starter" valign="top">(Csoport méret alatt az elsődleges tagok számát értjük.)<para/>Ha a csoport mérete 70 fölé megy, a csoport felületén megjelenik egy figyelmeztetés arról, hogy ideje lesz osztódni.<para/>Elkészül egy új csoport, amibe a csoport tagjai jelezhetik belépési szándékukat.<para/>Ha a csoport mérete eléri a 80 főt, vagy az új csoport mérete a régi csoport méretének felét, akkor<para/>  - ha az új csoportba kevesebb mint 25 fő jelezte a belépési szándékot, véletlenszerűen kiválasztódik annyi jelentkező, hogy a jelentkezők száma legalább 25 legyen<para/>  - megalakul az új csoport. Az új csoport megalakulásáról a 42 tájékoztatást kap.<para/>  - a csoport titkári pozíciójára (aki a formális teendőket végrehajtja, és a moderációt végzi) egy hétig lehet jelentkezni<para/>  - a csoport titkári pozíciójára a jelentkezők közül szavazni lehet. egy hétig, condorcet módszerrel, "a fentiek egyike sem" opcióval. <para/>Ha a csoport mérete 20 alá megy, akkor összeolvad a második legkevesebb tagot számláló csoporttal, annak a nevét és titkárát használva.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="acfe9812"/>Csoportba lépés, csoport váltás</entry>
+                     <entry class="starter" valign="top">A regisztrált tag kiválasztja, vagy megváltoztatja az elsődleges csoportját  (egy adott irányítási pontra vonatkoztatva).<para/>A regisztrált tag akkortehet bármi mást, ha van elsődleges csoportja.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="4a6be542"/>Csoportfa műveletek</entry>
+                     <entry class="starter" valign="top">- ha a csoportok száma 80 fölé nő, akkor két szupercsoport készül, amelyeknek kb ugyanannyi csoport a tagja<para/>  a szupercsoportok összeállításakor megpróbáljuk azokat a csoportokat,amelyek ugyanabból a csoportból osztódással készültek, egy szupercsoportba tenni<para/>- két csoport saját elhatározásból is alkothat szupercsoportot. az ilyen szupercsoport ugyanazon a szinten van, amin eredetileg az alája besorolt csoportok voltak, és a tagjai gyorsított eljárásban képesek a szupercsoport egy tagjában keletkező konszenzust elfogadni </entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="b648510f"/>Regisztráció</entry>
+                     <entry class="starter" valign="top">A regisztráció során egy ember a 42 tagjává válik, és megadja magáról a szükséges adatokat.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <section id="paraméterek">
+            <title>paraméterek</title>
+            <para/>
+            <table class="elementtable">
+               <tgroup cols="2">
+                  <colspec colname="c1"/>
+                  <colspec colname="c2"/>
+                  <tbody>
+                     <row>
+                        <entry class="starter" valign="top">
+                           <anchor id="912720ca"/>Csopot maximális mérete</entry>
+                        <entry class="starter" valign="top">80</entry>
+                     </row>
+                     <row>
+                        <entry class="starter" valign="top">
+                           <anchor id="3f75e68b"/>Szupercsoport maximális mérete</entry>
+                        <entry class="starter" valign="top">80</entry>
+                     </row>
+                     <row>
+                        <entry class="starter" valign="top">
+                           <anchor id="d153262f"/>csoport kezdőméret osztódáskor</entry>
+                        <entry class="starter" valign="top">25</entry>
+                     </row>
+                     <row>
+                        <entry class="starter" valign="top">
+                           <anchor id="99209ae5"/>csoport minimálmérete</entry>
+                        <entry class="starter" valign="top">20</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </section>
+      </section>
+      <section id="Implementáció">
+         <title>Implementáció</title>
+         <para/>
+         <section id="Első közelítés">
+            <title>Első közelítés</title>
+            <para/>
+            <table class="elementtable">
+               <tgroup cols="2">
+                  <colspec colname="c1"/>
+                  <colspec colname="c2"/>
+                  <tbody>
+                     <row>
+                        <entry class="starter" valign="top">
+                           <anchor id="a808554f"/>Első közelítés</entry>
+                        <entry class="starter" valign="top"/>
+                     </row>
+                     <row>
+                        <entry class="starter" valign="top">
+                           <anchor id="e2b7f946"/>wordpress</entry>
+                        <entry class="starter" valign="top">Regisztráció:<para/> A felületen egy gomb megszerzi a facebooktól:<para/>  - az fb id-t<para/>  - az email címet<para/>  - a csoporttagságokat<para/>Csoportba lépés:<para/>   - a tag a saját fb csoportjai közül választ egy elsődlegest. a csoport lista mutatja, hogy az adott csoportot addig hányan választották elsődleges csoportnak<para/>A kettő külön tranzakció, a csoportba lépés többször is megtehető (csoport váltás)</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </section>
+         <section id="Kézihajtány">
+            <title>Kézihajtány</title>
+            <para/>
+            <table class="elementtable">
+               <tgroup cols="2">
+                  <colspec colname="c1"/>
+                  <colspec colname="c2"/>
+                  <tbody>
+                     <row>
+                        <entry class="starter" valign="top">
+                           <anchor id="678df1ef"/>Kézihajtány</entry>
+                        <entry class="starter" valign="top">A legelején az informatikai támogatás abból áll, hogy már meglévő elemeket használunk bizonyos dolgokra, amihez pedig nincs támogatás, azt kézzel csináljuk.</entry>
+                     </row>
+                     <row>
+                        <entry class="starter" valign="top">
+                           <anchor id="285a0ffb"/>Nyilvános fb csoport vagy webes fórum</entry>
+                        <entry class="starter" valign="top">Regisztráció:<para/>   az fb-n vagy a fórumon szokásos módon<para/>   mivel az első közelítésben fb accountot fogunk használni, javasolt a kézihajtányban az fb csoport, vagy fb belépéssel hajtott fórum<para/>Csoportba lépés:<para/>   Az fb csoportba lépés a szokásos módon történik<para/>   Fórumon a fórum tagság ugyanígy jelentheti az adott csoportba való tartozást.   </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </section>
+      </section>
    </section>
    <section id="javaslat, szavazólap">
       <title>javaslat, szavazólap</title>

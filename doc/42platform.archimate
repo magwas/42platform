@@ -441,8 +441,8 @@ A plenáris döntéshozatalban megjelenő javaslatoknak a szavazás idejére ren
 </documentation>
       </element>
     </folder>
-    <folder name="Tagság, csoport" id="2cde65bb">
-      <element xsi:type="archimate:ArchimateDiagramModel" id="0aaf5ac1" name="Tagság, csoport">
+    <folder name="3. Tagság, csoport" id="2cde65bb">
+      <element xsi:type="archimate:ArchimateDiagramModel" id="0aaf5ac1" name="Tagság, csoport" connectionRouterType="1">
         <child xsi:type="archimate:DiagramObject" id="83a5ae0e" textAlignment="2" archimateElement="daddaf03">
           <bounds x="852" y="182"/>
           <sourceConnection xsi:type="archimate:Connection" id="87036cc5" source="83a5ae0e" target="bcbcfa32" relationship="d503e248"/>
@@ -452,9 +452,9 @@ A plenáris döntéshozatalban megjelenő javaslatoknak a szavazás idejére ren
           <sourceConnection xsi:type="archimate:Connection" id="0a95cc5e" source="4e348c52" target="bcbcfa32" relationship="82b134b6"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="ac24b798" textAlignment="2" targetConnections="72866703 11be9eb6" archimateElement="6b3a8dea">
-          <bounds x="335" y="32"/>
+          <bounds x="707" y="20"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="311909d0" textAlignment="2" targetConnections="1282bb5b" archimateElement="849cc4d6">
+        <child xsi:type="archimate:DiagramObject" id="311909d0" textAlignment="2" targetConnections="1282bb5b 2e34549c 7b3eceac 0054f0c8" archimateElement="849cc4d6">
           <bounds x="347" y="200"/>
           <sourceConnection xsi:type="archimate:Connection" id="7d3b0018" source="311909d0" target="7c373d36" relationship="1f6bd48b"/>
         </child>
@@ -472,13 +472,37 @@ A plenáris döntéshozatalban megjelenő javaslatoknak a szavazás idejére ren
           <sourceConnection xsi:type="archimate:Connection" id="84a1417b" source="4fff776c" target="bcbcfa32" relationship="7da5504e"/>
           <sourceConnection xsi:type="archimate:Connection" id="11be9eb6" source="4fff776c" target="ac24b798" relationship="252dd3e2"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="bcbcfa32" textAlignment="2" targetConnections="87036cc5 0a95cc5e 0d5021f5 84a1417b" archimateElement="7a6a239c">
+        <child xsi:type="archimate:DiagramObject" id="bcbcfa32" textAlignment="2" targetConnections="87036cc5 0a95cc5e 0d5021f5 84a1417b a3c66ba8" archimateElement="7a6a239c">
           <bounds x="635" y="248"/>
           <sourceConnection xsi:type="archimate:Connection" id="1282bb5b" source="bcbcfa32" target="311909d0" relationship="9d0b7be1"/>
           <sourceConnection xsi:type="archimate:Connection" id="269572fc" source="bcbcfa32" target="7c373d36" relationship="08bb67f8"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="7c373d36" textAlignment="2" targetConnections="269572fc 7d3b0018" archimateElement="c130e272">
           <bounds x="375" y="278" width="142" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="9836e366" textAlignment="2" archimateElement="e20bb440">
+          <bounds x="576" y="394"/>
+          <sourceConnection xsi:type="archimate:Connection" id="65b46057" source="9836e366" target="ab984099" relationship="bbfb02b9"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="cffc539f" textAlignment="2" archimateElement="5206ccdc">
+          <bounds x="160" y="462"/>
+          <sourceConnection xsi:type="archimate:Connection" id="2e34549c" source="cffc539f" target="311909d0" relationship="f75b6c42"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="1f5035a1" textAlignment="2" archimateElement="fe65deec">
+          <bounds x="160" y="352" width="120" height="97"/>
+          <sourceConnection xsi:type="archimate:Connection" id="7b3eceac" source="1f5035a1" target="311909d0" relationship="e39d51ef"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="ad139a53" textAlignment="2" archimateElement="d6a9d512">
+          <bounds x="576" y="462"/>
+          <sourceConnection xsi:type="archimate:Connection" id="97309d8b" source="ad139a53" target="ab984099" relationship="f2f45027"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="ab984099" textAlignment="2" targetConnections="65b46057 97309d8b" archimateElement="aa4feb5b">
+          <bounds x="375" y="394"/>
+          <sourceConnection xsi:type="archimate:Connection" id="a3c66ba8" source="ab984099" target="bcbcfa32" relationship="9e67a436"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="41ea1fb7" textAlignment="2" archimateElement="064749eb">
+          <bounds x="160" y="264"/>
+          <sourceConnection xsi:type="archimate:Connection" id="0054f0c8" source="41ea1fb7" target="311909d0" relationship="cc1c613b"/>
         </child>
       </element>
       <element xsi:type="archimate:BusinessRole" id="7a6a239c" name="42 tag">
@@ -514,13 +538,181 @@ A nem elsődleges tagok hozzászólási jogosultságairól a csoport dönt.
         <documentation>A valószínűtlenségi szint azt mutatja meg, hogy mennyire valószíműtlen, hogy a tag valóban az, akinek mondja magát.
 Cél a tagok valószínűtlenségi szintjének leszorítása az 1:1 -hez minél közelebbi értékre, hiszen ettől függ a felmért vélemény valószínűtlenségi szintje is.</documentation>
       </element>
+      <element xsi:type="archimate:BusinessObject" id="e20bb440" name="Név, avatar">
+        <documentation>Igazából nem érdekes, hogy a regisztrált név egyezik-e a tag valódi nevével, és az avatarján ő szerepel-e.
+Mivel a név nem egyedi azonosító, nem alkalmas arra, hogy a valószínűtlenségi szintet csökkentsük vele.
+Annyi a lényege, hogy az emberek beszélgetés közben nagyjából felismerjék egymást.</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessObject" id="5206ccdc" name="ügyfélkapu azonosító">
+        <documentation>Elméletileg lehetséges lenne ugyanolyan szinten meggyőződni a személyazonosságról, mint azt az elektronikus ügyintézésnél tesszük.
+Az ügyfélkapu interfésze nyilvános. Egy gond van, hogy csak állami hivatalok használhatják.
+Ha ezt megoldjuk, még mindig megeshet, hogy véletlenül vagy &quot;véletlenül&quot; problémák támadnak az interfésszel.</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessObject" id="fe65deec" name="személyi szám vagy személyi igazolvány szám">
+        <documentation>Ezek többé-kevésbé egyedi azonosítók.
+Hosszú távon jó megoldás lehet az, hogy a tagok egymásról tanúsítják, hogy megggyőződtek egymás valódiságáról ez alapján.
+A személyi szám a leginkább statikus, de adatvédelmi kérdéseket vet föl (amelyek nem feltétlenül megoldhatatlanok).
+A személyi igazolvány szám időben változhat.
+</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessObject" id="d6a9d512" name="email cím">
+        <documentation>Az email címre az értesítések kiküldéséhez, és a - legalábbis eleinte - szavazáshoz alkalmazott CIVS-hez szükséges.
+</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessObject" id="064749eb" name="facebook account">
+        <documentation>A facebook account azonosítja a felhasználót, és létezik validált facebook account, ahol a facebook valamilyen valószínűtlenségi szinttel elvégzi a felhasználó azonosítását. Valószínűleg első körben ezt tudjuk használni.
+</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessObject" id="aa4feb5b" name="Egyéb adat">
+        <documentation>Vannak olyan adatok, amelyek szükségesek a támogatott folyamatokhoz, de nem segítik a val=színütlenségi szint csökkentését.</documentation>
+      </element>
+    </folder>
+    <folder name="Folyamatok" id="b937c439">
+      <folder name="Belépés, csoportműveletek" id="0af25a11">
+        <folder name="paraméterek" id="1daccc0f">
+          <element xsi:type="archimate:Value" id="d153262f" name="csoport kezdőméret osztódáskor">
+            <documentation>25</documentation>
+          </element>
+          <element xsi:type="archimate:Value" id="99209ae5" name="csoport minimálmérete">
+            <documentation>20</documentation>
+          </element>
+          <element xsi:type="archimate:Value" id="912720ca" name="Csopot maximális mérete">
+            <documentation>80</documentation>
+          </element>
+          <element xsi:type="archimate:Value" id="3f75e68b" name="Szupercsoport maximális mérete">
+            <documentation>80</documentation>
+          </element>
+        </folder>
+        <element xsi:type="archimate:ArchimateDiagramModel" id="da6e389b" name="Szervezeti folyamatok">
+          <child xsi:type="archimate:DiagramObject" id="5c2194bc" textAlignment="2" targetConnections="9f16f70d 3daeec68" archimateElement="7a6a239c">
+            <bounds x="144" y="36"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="346566e5" textAlignment="2" targetConnections="bfcd5adb fb6e6700" archimateElement="b648510f">
+            <bounds x="144" y="132"/>
+            <sourceConnection xsi:type="archimate:Connection" id="25c4d797" source="346566e5" target="767174dd" relationship="da0f553b"/>
+            <sourceConnection xsi:type="archimate:Connection" id="9f16f70d" source="346566e5" target="5c2194bc" relationship="21ae2cfe"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="767174dd" textAlignment="2" targetConnections="25c4d797 3193681c 4c736d96" archimateElement="acfe9812">
+            <bounds x="336" y="132"/>
+            <sourceConnection xsi:type="archimate:Connection" id="c3a18d25" source="767174dd" target="c4a49613" relationship="5ef748b9"/>
+            <sourceConnection xsi:type="archimate:Connection" id="3daeec68" source="767174dd" target="5c2194bc" relationship="92a9555e"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="134943ed" textAlignment="2" targetConnections="50d12010" archimateElement="285a0ffb">
+            <bounds x="108" y="276"/>
+            <sourceConnection xsi:type="archimate:Connection" id="bfcd5adb" source="134943ed" target="346566e5" relationship="006ff35c"/>
+            <sourceConnection xsi:type="archimate:Connection" id="3193681c" source="134943ed" target="767174dd" relationship="4335e46b"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="479955a9" textAlignment="2" archimateElement="678df1ef">
+            <bounds x="12" y="186"/>
+            <sourceConnection xsi:type="archimate:Connection" id="50d12010" source="479955a9" target="134943ed" relationship="922319d1"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="356f1099" textAlignment="2" targetConnections="c3e06c7a" archimateElement="e2b7f946">
+            <bounds x="348" y="264"/>
+            <sourceConnection xsi:type="archimate:Connection" id="fb6e6700" source="356f1099" target="346566e5" relationship="cd9b94e3"/>
+            <sourceConnection xsi:type="archimate:Connection" id="4c736d96" source="356f1099" target="767174dd" relationship="76d1654d"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="98ab9d80" textAlignment="2" archimateElement="a808554f">
+            <bounds x="528" y="214" width="101" height="63"/>
+            <sourceConnection xsi:type="archimate:Connection" id="c3e06c7a" source="98ab9d80" target="356f1099" relationship="9df10761"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="c4a49613" textAlignment="2" targetConnections="c3a18d25" archimateElement="b3e09171">
+            <bounds x="519" y="132"/>
+            <sourceConnection xsi:type="archimate:Connection" id="db2176e9" source="c4a49613" target="adf02c21" relationship="fbbabe55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="d8d7f395" source="c4a49613" target="97529e95" relationship="ffac6549"/>
+            <sourceConnection xsi:type="archimate:Connection" id="9c37ecb3" source="c4a49613" target="09a54592" relationship="04ac3239"/>
+            <sourceConnection xsi:type="archimate:Connection" id="579c08b2" source="c4a49613" target="8daa8c73" relationship="bec93649"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="adf02c21" textAlignment="2" targetConnections="db2176e9" archimateElement="99209ae5">
+            <bounds x="432" y="24" width="131" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="97529e95" textAlignment="2" targetConnections="d8d7f395" archimateElement="d153262f">
+            <bounds x="576" y="24"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="09a54592" textAlignment="2" targetConnections="9c37ecb3" archimateElement="912720ca">
+            <bounds x="696" y="24"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="8daa8c73" textAlignment="2" targetConnections="579c08b2" archimateElement="4a6be542">
+            <bounds x="696" y="132"/>
+            <sourceConnection xsi:type="archimate:Connection" id="d11465bc" source="8daa8c73" target="12b598ae" relationship="6767956c"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="12b598ae" textAlignment="2" targetConnections="d11465bc" archimateElement="3f75e68b">
+            <bounds x="855" y="49"/>
+          </child>
+        </element>
+        <element xsi:type="archimate:BusinessProcess" id="b648510f" name="Regisztráció">
+          <documentation>A regisztráció során egy ember a 42 tagjává válik, és megadja magáról a szükséges adatokat.
+</documentation>
+        </element>
+        <element xsi:type="archimate:BusinessProcess" id="acfe9812" name="Csoportba lépés, csoport váltás">
+          <documentation>A regisztrált tag kiválasztja, vagy megváltoztatja az elsődleges csoportját  (egy adott irányítási pontra vonatkoztatva).
+A regisztrált tag akkortehet bármi mást, ha van elsődleges csoportja.
+
+</documentation>
+        </element>
+        <element xsi:type="archimate:BusinessProcess" id="b3e09171" name="Csoport osztódás vagy beolvadás">
+          <documentation>(Csoport méret alatt az elsődleges tagok számát értjük.)
+Ha a csoport mérete 70 fölé megy, a csoport felületén megjelenik egy figyelmeztetés arról, hogy ideje lesz osztódni.
+Elkészül egy új csoport, amibe a csoport tagjai jelezhetik belépési szándékukat.
+Ha a csoport mérete eléri a 80 főt, vagy az új csoport mérete a régi csoport méretének felét, akkor
+  - ha az új csoportba kevesebb mint 25 fő jelezte a belépési szándékot, véletlenszerűen kiválasztódik annyi jelentkező, hogy a jelentkezők száma legalább 25 legyen
+  - megalakul az új csoport. Az új csoport megalakulásáról a 42 tájékoztatást kap.
+  - a csoport titkári pozíciójára (aki a formális teendőket végrehajtja, és a moderációt végzi) egy hétig lehet jelentkezni
+  - a csoport titkári pozíciójára a jelentkezők közül szavazni lehet. egy hétig, condorcet módszerrel, &quot;a fentiek egyike sem&quot; opcióval.
+ 
+Ha a csoport mérete 20 alá megy, akkor összeolvad a második legkevesebb tagot számláló csoporttal, annak a nevét és titkárát használva.
+</documentation>
+        </element>
+        <element xsi:type="archimate:BusinessProcess" id="4a6be542" name="Csoportfa műveletek">
+          <documentation>- ha a csoportok száma 80 fölé nő, akkor két szupercsoport készül, amelyeknek kb ugyanannyi csoport a tagja
+  a szupercsoportok összeállításakor megpróbáljuk azokat a csoportokat,amelyek ugyanabból a csoportból osztódással készültek, egy szupercsoportba tenni
+
+- két csoport saját elhatározásból is alkothat szupercsoportot. az ilyen szupercsoport ugyanazon a szinten van, amin eredetileg az alája besorolt csoportok voltak, és a tagjai gyorsított eljárásban képesek a szupercsoport egy tagjában keletkező konszenzust elfogadni
+
+ </documentation>
+        </element>
+      </folder>
+      <folder name="Implementáció" id="52d31354">
+        <folder name="Kézihajtány" id="a0fdac89">
+          <element xsi:type="archimate:Plateau" id="678df1ef" name="Kézihajtány">
+            <documentation>A legelején az informatikai támogatás abból áll, hogy már meglévő elemeket használunk bizonyos dolgokra, amihez pedig nincs támogatás, azt kézzel csináljuk.
+</documentation>
+          </element>
+          <element xsi:type="archimate:ApplicationComponent" id="285a0ffb" name="Nyilvános fb csoport vagy webes fórum">
+            <documentation>Regisztráció:
+   az fb-n vagy a fórumon szokásos módon
+   mivel az első közelítésben fb accountot fogunk használni, javasolt a kézihajtányban az fb csoport, vagy fb belépéssel hajtott fórum
+Csoportba lépés:
+   Az fb csoportba lépés a szokásos módon történik
+   Fórumon a fórum tagság ugyanígy jelentheti az adott csoportba való tartozást.
+   </documentation>
+          </element>
+        </folder>
+        <folder name="Első közelítés" id="7a644215">
+          <element xsi:type="archimate:Plateau" id="a808554f" name="Első közelítés"/>
+          <element xsi:type="archimate:ApplicationComponent" id="e2b7f946" name="wordpress">
+            <documentation>Regisztráció:
+ A felületen egy gomb megszerzi a facebooktól:
+  - az fb id-t
+  - az email címet
+  - a csoporttagságokat
+
+Csoportba lépés:
+   - a tag a saját fb csoportjai közül választ egy elsődlegest. a csoport lista mutatja, hogy az adott csoportot addig hányan választották elsődleges csoportnak
+
+A kettő külön tranzakció, a csoportba lépés többször is megtehető (csoport váltás)
+</documentation>
+          </element>
+        </folder>
+      </folder>
     </folder>
     <property key="report:part" value="all"/>
   </folder>
   <folder name="Application" id="29b37cb2" type="application"/>
   <folder name="Technology" id="65c7ecf3" type="technology"/>
   <folder name="Motivation" id="ae24fcdf" type="motivation"/>
-  <folder name="Implementation &amp; Migration" id="6a0dae5e" type="implementation_migration"/>
+  <folder name="Implementation &amp; Migration" id="6a0dae5e" type="implementation_migration">
+    <element xsi:type="archimate:Plateau" id="c916b238" name="Végleges változat"/>
+  </folder>
   <folder name="Connectors" id="114232db" type="connectors"/>
   <folder name="Relations" id="43e22a55" type="relations">
     <element xsi:type="archimate:CompositionRelationship" id="b8e28fee" source="68237c59" target="6b3a8dea"/>
@@ -597,6 +789,27 @@ Cél a tagok valószínűtlenségi szintjének leszorítása az 1:1 -hez minél 
     <element xsi:type="archimate:SpecialisationRelationship" id="252dd3e2" source="086995ae" target="6b3a8dea"/>
     <element xsi:type="archimate:AssociationRelationship" id="08bb67f8" source="7a6a239c" target="c130e272"/>
     <element xsi:type="archimate:AssociationRelationship" id="1f6bd48b" source="849cc4d6" target="c130e272"/>
+    <element xsi:type="archimate:SpecialisationRelationship" id="bbfb02b9" source="e20bb440" target="aa4feb5b"/>
+    <element xsi:type="archimate:SpecialisationRelationship" id="f2f45027" source="d6a9d512" target="aa4feb5b"/>
+    <element xsi:type="archimate:SpecialisationRelationship" id="f75b6c42" source="5206ccdc" target="849cc4d6"/>
+    <element xsi:type="archimate:SpecialisationRelationship" id="e39d51ef" source="fe65deec" target="849cc4d6"/>
+    <element xsi:type="archimate:AssociationRelationship" id="9e67a436" source="aa4feb5b" target="7a6a239c"/>
+    <element xsi:type="archimate:SpecialisationRelationship" id="cc1c613b" source="064749eb" target="849cc4d6"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="da0f553b" source="b648510f" target="acfe9812"/>
+    <element xsi:type="archimate:UsedByRelationship" id="21ae2cfe" source="b648510f" target="7a6a239c"/>
+    <element xsi:type="archimate:AggregationRelationship" id="922319d1" source="678df1ef" target="285a0ffb"/>
+    <element xsi:type="archimate:UsedByRelationship" id="006ff35c" source="285a0ffb" target="b648510f"/>
+    <element xsi:type="archimate:UsedByRelationship" id="4335e46b" source="285a0ffb" target="acfe9812"/>
+    <element xsi:type="archimate:AggregationRelationship" id="9df10761" source="a808554f" target="e2b7f946"/>
+    <element xsi:type="archimate:UsedByRelationship" id="cd9b94e3" source="e2b7f946" target="b648510f"/>
+    <element xsi:type="archimate:UsedByRelationship" id="76d1654d" source="e2b7f946" target="acfe9812"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="5ef748b9" source="acfe9812" target="b3e09171"/>
+    <element xsi:type="archimate:UsedByRelationship" id="92a9555e" source="acfe9812" target="7a6a239c"/>
+    <element xsi:type="archimate:AssociationRelationship" id="fbbabe55" source="b3e09171" target="99209ae5"/>
+    <element xsi:type="archimate:AssociationRelationship" id="ffac6549" source="b3e09171" target="d153262f"/>
+    <element xsi:type="archimate:AssociationRelationship" id="04ac3239" source="b3e09171" target="912720ca"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="bec93649" source="b3e09171" target="4a6be542"/>
+    <element xsi:type="archimate:AssociationRelationship" id="6767956c" source="4a6be542" target="3f75e68b"/>
   </folder>
   <folder name="Views" id="8c46df9c" type="diagrams"/>
   <purpose>Ennek a doksinak az a célja, hogy a kockák tudják, hogy mit kell leprogramozni.

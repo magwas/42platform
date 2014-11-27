@@ -39,7 +39,25 @@
                <dt><span class="section"><a href="#0. Az %C3%BAj vil%C3%A1gk%C3%A9p">0. Az új világkép</a></span></dt>
                <dt><span class="section"><a href="#1. d%C3%B6nt%C3%A9shozatali folyamat">1. döntéshozatali folyamat</a></span></dt>
                <dt><span class="section"><a href="#2. A 42 teljes d%C3%B6nt%C3%A9shozatali folyamata">2. A 42 teljes döntéshozatali folyamata</a></span></dt>
-               <dt><span class="section"><a href="#Tags%C3%A1g, csoport">Tagság, csoport</a></span></dt>
+               <dt><span class="section"><a href="#3. Tags%C3%A1g, csoport">3. Tagság, csoport</a></span></dt>
+               <dt><span class="section"><a href="#Folyamatok">Folyamatok</a></span></dt>
+               <dd>
+                  <dl>
+                     <dt><span class="section"><a href="#Bel%C3%A9p%C3%A9s, csoportm%C5%B1veletek">Belépés, csoportműveletek</a></span></dt>
+                     <dd>
+                        <dl>
+                           <dt><span class="section"><a href="#param%C3%A9terek">paraméterek</a></span></dt>
+                        </dl>
+                     </dd>
+                     <dt><span class="section"><a href="#Implement%C3%A1ci%C3%B3">Implementáció</a></span></dt>
+                     <dd>
+                        <dl>
+                           <dt><span class="section"><a href="#Els%C5%91 k%C3%B6zel%C3%ADt%C3%A9s">Első közelítés</a></span></dt>
+                           <dt><span class="section"><a href="#K%C3%A9zihajt%C3%A1ny">Kézihajtány</a></span></dt>
+                        </dl>
+                     </dd>
+                  </dl>
+               </dd>
                <dt><span class="section"><a href="#javaslat, szavaz%C3%B3lap">javaslat, szavazólap</a></span></dt>
                <dd>
                   <dl>
@@ -56,7 +74,8 @@
                <dt>2. <a href="#d54e143">döntéshozatali folyamat</a></dt>
                <dt>3. <a href="#d54e296">42  A 42 teljes döntéshozatali folyamata</a></dt>
                <dt>4. <a href="#d54e361">Tagság, csoport</a></dt>
-               <dt>5. <a href="#d54e444">Javaslat, szavazólap</a></dt>
+               <dt>5. <a href="#d54e505">Szervezeti folyamatok</a></dt>
+               <dt>6. <a href="#d54e690">Javaslat, szavazólap</a></dt>
             </dl>
          </div>
          <div class="section" title="0. Az új világkép">
@@ -433,11 +452,11 @@
                   </table>
                </div>
             </div><br class="table-break" /></div>
-         <div class="section" title="Tagság, csoport">
+         <div class="section" title="3. Tagság, csoport">
             <div class="titlepage">
                <div>
                   <div>
-                     <h2 class="title" style="clear: both"><a id="Tagság, csoport"></a>Tagság, csoport
+                     <h2 class="title" style="clear: both"><a id="3. Tagság, csoport"></a>3. Tagság, csoport
                      </h2>
                   </div>
                </div>
@@ -482,6 +501,14 @@
                         </tr>
                         <tr>
                            <td valign="top">
+                              <a id="aa4feb5b"></a>Egyéb adat
+                           </td>
+                           <td valign="top">Vannak olyan adatok, amelyek szükségesek a támogatott folyamatokhoz, de nem segítik
+                              a val=színütlenségi szint csökkentését.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
                               <a id="086995ae"></a>Egyéb csoport
                            </td>
                            <td valign="top">A tagok belátásuk szerint alakíthatnak csoportokat, vehetnek részt a csoportok munkájában.
@@ -516,10 +543,50 @@
                         </tr>
                         <tr>
                            <td valign="top">
+                              <a id="e20bb440"></a>Név, avatar
+                           </td>
+                           <td valign="top">Igazából nem érdekes, hogy a regisztrált név egyezik-e a tag valódi nevével, és az
+                              avatarján ő szerepel-e.
+                              <p></p>Mivel a név nem egyedi azonosító, nem alkalmas arra, hogy a valószínűtlenségi szintet
+                              csökkentsük vele.
+                              <p></p>Annyi a lényege, hogy az emberek beszélgetés közben nagyjából felismerjék egymást.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
                               <a id="849cc4d6"></a>azonosító adat
                            </td>
                            <td valign="top">Az azonosító adat mindaz az adat, amit a tagról a valószínűtlenségi szint alacsonyan
                               tartása érdekében nyilvántartunk.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <a id="d6a9d512"></a>email cím
+                           </td>
+                           <td valign="top">Az email címre az értesítések kiküldéséhez, és a - legalábbis eleinte - szavazáshoz
+                              alkalmazott CIVS-hez szükséges.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <a id="064749eb"></a>facebook account
+                           </td>
+                           <td valign="top">A facebook account azonosítja a felhasználót, és létezik validált facebook account,
+                              ahol a facebook valamilyen valószínűtlenségi szinttel elvégzi a felhasználó azonosítását.
+                              Valószínűleg első körben ezt tudjuk használni.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <a id="fe65deec"></a>személyi szám vagy személyi igazolvány szám
+                           </td>
+                           <td valign="top">Ezek többé-kevésbé egyedi azonosítók.
+                              <p></p>Hosszú távon jó megoldás lehet az, hogy a tagok egymásról tanúsítják, hogy megggyőződtek
+                              egymás valódiságáról ez alapján.
+                              <p></p>A személyi szám a leginkább statikus, de adatvédelmi kérdéseket vet föl (amelyek nem
+                              feltétlenül megoldhatatlanok).
+                              <p></p>A személyi igazolvány szám időben változhat.
                            </td>
                         </tr>
                         <tr>
@@ -532,10 +599,270 @@
                               hiszen ettől függ a felmért vélemény valószínűtlenségi szintje is.
                            </td>
                         </tr>
+                        <tr>
+                           <td valign="top">
+                              <a id="5206ccdc"></a>ügyfélkapu azonosító
+                           </td>
+                           <td valign="top">Elméletileg lehetséges lenne ugyanolyan szinten meggyőződni a személyazonosságról,
+                              mint azt az elektronikus ügyintézésnél tesszük.
+                              <p></p>Az ügyfélkapu interfésze nyilvános. Egy gond van, hogy csak állami hivatalok használhatják.
+                              <p></p>Ha ezt megoldjuk, még mindig megeshet, hogy véletlenül vagy "véletlenül" problémák
+                              támadnak az interfésszel.
+                           </td>
+                        </tr>
                      </tbody>
                   </table>
                </div>
             </div><br class="table-break" /></div>
+         <div class="section" title="Folyamatok">
+            <div class="titlepage">
+               <div>
+                  <div>
+                     <h2 class="title" style="clear: both"><a id="Folyamatok"></a>Folyamatok
+                     </h2>
+                  </div>
+               </div>
+               <div></div>
+            </div>
+            <p></p>
+            <div class="section" title="Belépés, csoportműveletek">
+               <div class="titlepage">
+                  <div>
+                     <div>
+                        <h3 class="title"><a id="Belépés, csoportműveletek"></a>Belépés, csoportműveletek
+                        </h3>
+                     </div>
+                  </div>
+                  <div></div>
+               </div>
+               <p></p>
+               <div class="table"><a id="d54e495"></a><p class="title"><b>Table 5. </b></p>
+                  <div class="table-contents">
+                     <table border="1">
+                        <colgroup>
+                           <col />
+                           <col />
+                        </colgroup>
+                        <tbody>
+                           <tr>
+                              <td colspan="2">
+                                 
+                                 <p>
+                                    
+                                    <div class="figure"><a id="d54e505"></a><p class="title"><b>Figure 5. Szervezeti folyamatok</b></p>
+                                       <div class="figure-contents"><em><span class="remark"></span></em><div class="mediaobject"><img src="pics/da6e389b.png" alt="Szervezeti folyamatok" /></div>
+                                       </div>
+                                    </div><br class="figure-break" />
+                                    
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <td valign="top">
+                                 <a id="b3e09171"></a>Csoport osztódás vagy beolvadás
+                              </td>
+                              <td valign="top">(Csoport méret alatt az elsődleges tagok számát értjük.)
+                                 <p></p>Ha a csoport mérete 70 fölé megy, a csoport felületén megjelenik egy figyelmeztetés
+                                 arról, hogy ideje lesz osztódni.
+                                 <p></p>Elkészül egy új csoport, amibe a csoport tagjai jelezhetik belépési szándékukat.
+                                 <p></p>Ha a csoport mérete eléri a 80 főt, vagy az új csoport mérete a régi csoport méretének
+                                 felét, akkor
+                                 <p></p>  - ha az új csoportba kevesebb mint 25 fő jelezte a belépési szándékot, véletlenszerűen
+                                 kiválasztódik annyi jelentkező, hogy a jelentkezők száma legalább 25 legyen
+                                 <p></p>  - megalakul az új csoport. Az új csoport megalakulásáról a 42 tájékoztatást kap.
+                                 <p></p>  - a csoport titkári pozíciójára (aki a formális teendőket végrehajtja, és a moderációt
+                                 végzi) egy hétig lehet jelentkezni
+                                 <p></p>  - a csoport titkári pozíciójára a jelentkezők közül szavazni lehet. egy hétig, condorcet
+                                 módszerrel, "a fentiek egyike sem" opcióval. 
+                                 <p></p>Ha a csoport mérete 20 alá megy, akkor összeolvad a második legkevesebb tagot számláló
+                                 csoporttal, annak a nevét és titkárát használva.
+                              </td>
+                           </tr>
+                           <tr>
+                              <td valign="top">
+                                 <a id="acfe9812"></a>Csoportba lépés, csoport váltás
+                              </td>
+                              <td valign="top">A regisztrált tag kiválasztja, vagy megváltoztatja az elsődleges csoportját  (egy
+                                 adott irányítási pontra vonatkoztatva).
+                                 <p></p>A regisztrált tag akkortehet bármi mást, ha van elsődleges csoportja.
+                              </td>
+                           </tr>
+                           <tr>
+                              <td valign="top">
+                                 <a id="4a6be542"></a>Csoportfa műveletek
+                              </td>
+                              <td valign="top">- ha a csoportok száma 80 fölé nő, akkor két szupercsoport készül, amelyeknek kb ugyanannyi
+                                 csoport a tagja
+                                 <p></p>  a szupercsoportok összeállításakor megpróbáljuk azokat a csoportokat,amelyek ugyanabból
+                                 a csoportból osztódással készültek, egy szupercsoportba tenni
+                                 <p></p>- két csoport saját elhatározásból is alkothat szupercsoportot. az ilyen szupercsoport
+                                 ugyanazon a szinten van, amin eredetileg az alája besorolt csoportok voltak, és a
+                                 tagjai gyorsított eljárásban képesek a szupercsoport egy tagjában keletkező konszenzust
+                                 elfogadni 
+                              </td>
+                           </tr>
+                           <tr>
+                              <td valign="top">
+                                 <a id="b648510f"></a>Regisztráció
+                              </td>
+                              <td valign="top">A regisztráció során egy ember a 42 tagjává válik, és megadja magáról a szükséges
+                                 adatokat.
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div><br class="table-break" /><div class="section" title="paraméterek">
+                  <div class="titlepage">
+                     <div>
+                        <div>
+                           <h4 class="title"><a id="paraméterek"></a>paraméterek
+                           </h4>
+                        </div>
+                     </div>
+                     <div></div>
+                  </div>
+                  <p></p>
+                  <div class="table"><a id="d54e569"></a><p class="title"><b>Table 6. </b></p>
+                     <div class="table-contents">
+                        <table border="1">
+                           <colgroup>
+                              <col />
+                              <col />
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td valign="top">
+                                    <a id="912720ca"></a>Csopot maximális mérete
+                                 </td>
+                                 <td valign="top">80</td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <a id="3f75e68b"></a>Szupercsoport maximális mérete
+                                 </td>
+                                 <td valign="top">80</td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <a id="d153262f"></a>csoport kezdőméret osztódáskor
+                                 </td>
+                                 <td valign="top">25</td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <a id="99209ae5"></a>csoport minimálmérete
+                                 </td>
+                                 <td valign="top">20</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div><br class="table-break" /></div>
+            </div>
+            <div class="section" title="Implementáció">
+               <div class="titlepage">
+                  <div>
+                     <div>
+                        <h3 class="title"><a id="Implementáció"></a>Implementáció
+                        </h3>
+                     </div>
+                  </div>
+                  <div></div>
+               </div>
+               <p></p>
+               <div class="section" title="Első közelítés">
+                  <div class="titlepage">
+                     <div>
+                        <div>
+                           <h4 class="title"><a id="Első közelítés"></a>Első közelítés
+                           </h4>
+                        </div>
+                     </div>
+                     <div></div>
+                  </div>
+                  <p></p>
+                  <div class="table"><a id="d54e610"></a><p class="title"><b>Table 7. </b></p>
+                     <div class="table-contents">
+                        <table border="1">
+                           <colgroup>
+                              <col />
+                              <col />
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td valign="top">
+                                    <a id="a808554f"></a>Első közelítés
+                                 </td>
+                                 <td valign="top"> </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <a id="e2b7f946"></a>wordpress
+                                 </td>
+                                 <td valign="top">Regisztráció:
+                                    <p></p> A felületen egy gomb megszerzi a facebooktól:
+                                    <p></p>  - az fb id-t
+                                    <p></p>  - az email címet
+                                    <p></p>  - a csoporttagságokat
+                                    <p></p>Csoportba lépés:
+                                    <p></p>   - a tag a saját fb csoportjai közül választ egy elsődlegest. a csoport lista mutatja,
+                                    hogy az adott csoportot addig hányan választották elsődleges csoportnak
+                                    <p></p>A kettő külön tranzakció, a csoportba lépés többször is megtehető (csoport váltás)
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div><br class="table-break" /></div>
+               <div class="section" title="Kézihajtány">
+                  <div class="titlepage">
+                     <div>
+                        <div>
+                           <h4 class="title"><a id="Kézihajtány"></a>Kézihajtány
+                           </h4>
+                        </div>
+                     </div>
+                     <div></div>
+                  </div>
+                  <p></p>
+                  <div class="table"><a id="d54e647"></a><p class="title"><b>Table 8. </b></p>
+                     <div class="table-contents">
+                        <table border="1">
+                           <colgroup>
+                              <col />
+                              <col />
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td valign="top">
+                                    <a id="678df1ef"></a>Kézihajtány
+                                 </td>
+                                 <td valign="top">A legelején az informatikai támogatás abból áll, hogy már meglévő elemeket használunk
+                                    bizonyos dolgokra, amihez pedig nincs támogatás, azt kézzel csináljuk.
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <a id="285a0ffb"></a>Nyilvános fb csoport vagy webes fórum
+                                 </td>
+                                 <td valign="top">Regisztráció:
+                                    <p></p>   az fb-n vagy a fórumon szokásos módon
+                                    <p></p>   mivel az első közelítésben fb accountot fogunk használni, javasolt a kézihajtányban
+                                    az fb csoport, vagy fb belépéssel hajtott fórum
+                                    <p></p>Csoportba lépés:
+                                    <p></p>   Az fb csoportba lépés a szokásos módon történik
+                                    <p></p>   Fórumon a fórum tagság ugyanígy jelentheti az adott csoportba való tartozást. 
+                                    
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div><br class="table-break" /></div>
+            </div>
+         </div>
          <div class="section" title="javaslat, szavazólap">
             <div class="titlepage">
                <div>
@@ -547,7 +874,7 @@
                <div></div>
             </div>
             <p></p>
-            <div class="table"><a id="d54e434"></a><p class="title"><b>Table 5. </b></p>
+            <div class="table"><a id="d54e680"></a><p class="title"><b>Table 9. </b></p>
                <div class="table-contents">
                   <table border="1">
                      <colgroup>
@@ -560,7 +887,7 @@
                               
                               <p>
                                  
-                                 <div class="figure"><a id="d54e444"></a><p class="title"><b>Figure 5. Javaslat, szavazólap</b></p>
+                                 <div class="figure"><a id="d54e690"></a><p class="title"><b>Figure 6. Javaslat, szavazólap</b></p>
                                     <div class="figure-contents"><em><span class="remark"></span></em><div class="mediaobject"><img src="pics/9a635bd1.png" alt="Javaslat, szavazólap" /></div>
                                     </div>
                                  </div><br class="figure-break" />
@@ -649,7 +976,7 @@
                   <div></div>
                </div>
                <p></p>
-               <div class="table"><a id="d54e527"></a><p class="title"><b>Table 6. </b></p>
+               <div class="table"><a id="d54e773"></a><p class="title"><b>Table 10. </b></p>
                   <div class="table-contents">
                      <table border="1">
                         <colgroup>
@@ -711,7 +1038,7 @@
                   <div></div>
                </div>
                <p></p>
-               <div class="table"><a id="d54e582"></a><p class="title"><b>Table 7. </b></p>
+               <div class="table"><a id="d54e828"></a><p class="title"><b>Table 11. </b></p>
                   <div class="table-contents">
                      <table border="1">
                         <colgroup>
