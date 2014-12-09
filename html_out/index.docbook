@@ -11,249 +11,332 @@
       <pubdate>2014-12-09</pubdate>
       <abstract>Ennek a doksinak az a célja, hogy a kockák tudják, hogy mit kell leprogramozni.<para/>Azt a részt, ami a folyamatokról szól, jó ha a nem kockák is átnézik.<para/>Merthogy a kockák ezt fogják leprogramozni.<para/>"Ez tulajdonképpen fenyegetés. Sosem voltam különösebben tehetséges a fenyegetések terén, de úgy mondják, fölöttébb hatékonyak lehetnek. "<para/>(Szlartibartfaszt)</abstract>
    </info>
-   <section id="0. Az új világkép">
-      <title>0. Az új világkép</title>
+   <section id="0. Business">
+      <title>0. Business</title>
       <para/>
-      <table class="elementtable">
-         <tgroup cols="2">
-            <colspec colname="c1"/>
-            <colspec colname="c2"/>
-            <tbody>
-               <row>
-                  <entry namest="c1" nameend="c2">
-                     <para>
-                        <figure>
-                           <title>Struktúra</title>
-                           <remark/>
-                           <mediaobject>
-                              <imageobject>
-                                 <imagedata fileref="pics/37ebd707.png"/>
-                              </imageobject>
-                           </mediaobject>
-                        </figure>
-                     </para>
-                  </entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="68237c59"/>42</entry>
-                  <entry class="starter" valign="top">A 42 egy közösségi döntéshozatalt segítő platform, avagy egy e-demokráciát megvalósító eszköz.<para/>A szakértői kormányzás, vagy még inkább a szakértői problémamegoldás eszköze a 42 metodikája.<para/>Itt nem a pártpolitika a mérvadó, hanem az ész, a lojalitás, a közösségi cél és egy jobb jövő ígérete! Mindazt, amit itt eldöntünk, azt a mindenkori hatalomnak végre kell hajtania, mert ez a közösség akarata!</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="6b3a8dea"/>Csoport</entry>
-                  <entry class="starter" valign="top">A 42 gépébe kész indítványokat lehet betölteni. Azokat legjobb, ha egy szakértői csoportban dolgozzátok ki.<para/>Ebbe nem akarunk beleszólni, csak javaslatokat adunk.<para/>Legjobb ha valahol 30-60 fő között van a mérete: mi emberek ekkora csoportokban tudunk legjobban együttműködni.<para/>A 42 gépe még nem ad segítséget ezeknek a csoportoknak a működtetéséhez, de azt is tervezzük későbbre.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="320aab82"/>TERV</entry>
-                  <entry class="starter" valign="top">az, amit el szeretnél érni, egy szövegben kell, hogy megjelenjen. Ezt nevezhetjük TERV-nek. Ez lehet egy törvény, rendelet, annak módosítása, de egy nyilatkozat vagy kiáltvány is.<para/>Például:<para/>- egy törvénymódosítás, amely kötelezővé teszi a mindennapi bisztromatika órát a szakmunkásképzésben (és akár az is lehet, hogy megalkotásra kerül egy új oktatási törvény)<para/>- egy kiáltvány, amelyben rámutatsz arra, hogy a petúniáknak milyen rossz soruk van, és mindenkit felkérsz arra, hogy neveljen fel még egy petúniát (akár készülhet egy új szociális szabályozás).<para/>- Átfogó struktúraváltozásra irányuló javaslat, amely érinti a törvénykezést, a jogalkotást, egy bevett szokást, rendszert, elvet, módszertant! (és akár készülhet egy új törvény, amelynek mentén akár megváltoztatható az ország energiaellátási struktúrája)<para/>A lényeg az, hogy közérthető, világos és egyértelmű legyen az, amit megfogalmazol!</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="b18eb967"/>parlament</entry>
-                  <entry class="starter" valign="top">A parlament az a hely, ahol törvényeket szavaznak meg a pártok képviselői. A mi megbízottaink.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="e926dcae"/>pártok</entry>
-                  <entry class="starter" valign="top">A pártokhoz való viszonyunk egyszerű:<para/>- bármelyik beállhat mögénk<para/>- egyik sem állhat elénk<para/>- megengedjük nekik, hogy az érdekeinket a parlamentben képviseljék</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="b55e1022"/>többi csoport</entry>
-                  <entry class="starter" valign="top">A 42 csoportokból áll. Mindenkit szívesen látunk, bármit gondol is a világról. Ahhoz, hogy egy javaslatból a 42 felületén kialakult konszenzus legyen, szükséges az, hogy mindenkinek, minden csoportnak meg legyen a lehetősége ezt a véleményt formálni.<para/>Ha sokan leszünk, és azt látjuk hogy nagy a zaj, a csoportokból is csoportokat fogunk képezni.<para/>De az is lehet, hogy ti akartok ilyen nagyobb csoportokat. Pl. egy már meglévő 600 fős szervezetet tíz csoportba rendezve.</entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+      <section id="0. Az új világkép">
+         <title>0. Az új világkép</title>
+         <para/>
+         <table class="elementtable">
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <tbody>
+                  <row>
+                     <entry namest="c1" nameend="c2">
+                        <para>
+                           <figure>
+                              <title>Struktúra</title>
+                              <remark/>
+                              <mediaobject>
+                                 <imageobject>
+                                    <imagedata fileref="pics/37ebd707.png"/>
+                                 </imageobject>
+                              </mediaobject>
+                           </figure>
+                        </para>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="68237c59"/>42</entry>
+                     <entry class="starter" valign="top">A 42 egy közösségi döntéshozatalt segítő platform, avagy egy e-demokráciát megvalósító eszköz.<para/>A szakértői kormányzás, vagy még inkább a szakértői problémamegoldás eszköze a 42 metodikája.<para/>Itt nem a pártpolitika a mérvadó, hanem az ész, a lojalitás, a közösségi cél és egy jobb jövő ígérete! Mindazt, amit itt eldöntünk, azt a mindenkori hatalomnak végre kell hajtania, mert ez a közösség akarata!</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="6b3a8dea"/>Csoport</entry>
+                     <entry class="starter" valign="top">A 42 gépébe kész indítványokat lehet betölteni. Azokat legjobb, ha egy szakértői csoportban dolgozzátok ki.<para/>Ebbe nem akarunk beleszólni, csak javaslatokat adunk.<para/>Legjobb ha valahol 30-60 fő között van a mérete: mi emberek ekkora csoportokban tudunk legjobban együttműködni.<para/>A 42 gépe még nem ad segítséget ezeknek a csoportoknak a működtetéséhez, de azt is tervezzük későbbre.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="320aab82"/>TERV</entry>
+                     <entry class="starter" valign="top">az, amit el szeretnél érni, egy szövegben kell, hogy megjelenjen. Ezt nevezhetjük TERV-nek. Ez lehet egy törvény, rendelet, annak módosítása, de egy nyilatkozat vagy kiáltvány is.<para/>Például:<para/>- egy törvénymódosítás, amely kötelezővé teszi a mindennapi bisztromatika órát a szakmunkásképzésben (és akár az is lehet, hogy megalkotásra kerül egy új oktatási törvény)<para/>- egy kiáltvány, amelyben rámutatsz arra, hogy a petúniáknak milyen rossz soruk van, és mindenkit felkérsz arra, hogy neveljen fel még egy petúniát (akár készülhet egy új szociális szabályozás).<para/>- Átfogó struktúraváltozásra irányuló javaslat, amely érinti a törvénykezést, a jogalkotást, egy bevett szokást, rendszert, elvet, módszertant! (és akár készülhet egy új törvény, amelynek mentén akár megváltoztatható az ország energiaellátási struktúrája)<para/>A lényeg az, hogy közérthető, világos és egyértelmű legyen az, amit megfogalmazol!</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="b18eb967"/>parlament</entry>
+                     <entry class="starter" valign="top">A parlament az a hely, ahol törvényeket szavaznak meg a pártok képviselői. A mi megbízottaink.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="e926dcae"/>pártok</entry>
+                     <entry class="starter" valign="top">A pártokhoz való viszonyunk egyszerű:<para/>- bármelyik beállhat mögénk<para/>- egyik sem állhat elénk<para/>- megengedjük nekik, hogy az érdekeinket a parlamentben képviseljék</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="b55e1022"/>többi csoport</entry>
+                     <entry class="starter" valign="top">A 42 csoportokból áll. Mindenkit szívesen látunk, bármit gondol is a világról. Ahhoz, hogy egy javaslatból a 42 felületén kialakult konszenzus legyen, szükséges az, hogy mindenkinek, minden csoportnak meg legyen a lehetősége ezt a véleményt formálni.<para/>Ha sokan leszünk, és azt látjuk hogy nagy a zaj, a csoportokból is csoportokat fogunk képezni.<para/>De az is lehet, hogy ti akartok ilyen nagyobb csoportokat. Pl. egy már meglévő 600 fős szervezetet tíz csoportba rendezve.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section id="1. döntéshozatali folyamat">
+         <title>1. döntéshozatali folyamat</title>
+         <para/>
+         <table class="elementtable">
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <tbody>
+                  <row>
+                     <entry namest="c1" nameend="c2">
+                        <para>
+                           <figure>
+                              <title>döntéshozatali folyamat</title>
+                              <remark/>
+                              <mediaobject>
+                                 <imageobject>
+                                    <imagedata fileref="pics/97923d60.png"/>
+                                 </imageobject>
+                              </mediaobject>
+                           </figure>
+                        </para>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="b174336b"/>Alternatív indítvány szószóló</entry>
+                     <entry class="starter" valign="top">Az alternatív inditvány benyújtója lesz annak a szószólója</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="092788b0"/>Alternatív indítvány támogató</entry>
+                     <entry class="starter" valign="top">tudod, aki támogatott egy alternatív indítványt</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="e0eb8ba0"/>Alternatív indítvány(ok) előkészítése</entry>
+                     <entry class="starter" valign="top">Az alternatív indítványokat ugyanazzal a folyamattal készítjük el, mint a döntési javaslatot.<para/>A megfelelő számú támogatást a vitaidőszak befejeződése előtt el kell érni.  Ha egy alternatív indítvány elegendő támogatást gyűjtött össze, a vitaidőszak újraindul, hogy azt is lehessen fényezni.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="98ef95f0"/>Döntéshozatali folyamat</entry>
+                     <entry class="starter" valign="top">A döntéshozatali folyamatnak ez a része csoporton belüli és plenáris döntéshozatal esetén is lényegileg ugyanaz.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="183bb70b"/>Egyeztetett szószóló</entry>
+                     <entry class="starter" valign="top">Aki a nyertes javaslatot benyújtotta, az lesz annak a szószólója a szavazás után is.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="0d56975d"/>Elegendő támogatás gyűlt össze</entry>
+                     <entry class="starter" valign="top">Egy indítvány formálissá válásához sqrt(N)  támogatás kell. N a 42 taglétszáma.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="679eeeba"/>Indítvány elkészítése</entry>
+                     <entry class="starter" valign="top">Ez a folyamat vezet egy formális javaslathoz. A lényege az, hogy össze kell gyűljön elegendő támogatás a javaslat részére.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="47748531"/>Indítvány megtétele</entry>
+                     <entry class="starter" valign="top">Az indítványt a megfelelő helyen annak gazdája közzéteszi</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="daddaf03"/>Szószóló</entry>
+                     <entry class="starter" valign="top">Az indítvány közzétevője a szószóló. A szószóló dolga és felelőssége, hogy az indítványt folyamatosan javítsa, az alternatív indítványok szószólóival egyeztessen, az indítványhoz indoklást és swot analízist készítsen.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="43f9e399"/>Támogatás gyűjtése</entry>
+                     <entry class="starter" valign="top">Az indítvány akkor formalizálódik, ha a formai követelményeknek megfelel, és elegendő mennyiségű támogató gyűlik össze.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="584ec06e"/>Támogató</entry>
+                     <entry class="starter" valign="top">Egy indítvány támogatója az, aki kifejezte, hogy egy indítványt támogat. A támogató figyeli az indítvány változásait, és ha nem megfelelő változást lát, a támogatást visszavonhatja.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="41f05af4"/>Vitaidószak</entry>
+                     <entry class="starter" valign="top">A vitaidőszaknak van egy minimum hossza (2 hét). Azt szükség esetén meg lehet hosszabbítani, alternatív indítvány beérkezése esetén újraindul.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="61c4e134"/>Vitaidőszak vége</entry>
+                     <entry class="starter" valign="top">A vitaidőszak lejártával megkezdődik a szavazás.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="f26f6b9e"/>a 42 felületén kialakult konszenzus</entry>
+                     <entry class="starter" valign="top">A 42 felületén kialakult konszenzusnak tekintjük azt az indítványt, amelyik megnyerte a szavazást.<para/>A "fentiek egyike sem" nyerése esetén az az egyeztetett konszenzus, hogy nincs megegyezés. Ilyenkor érdemes még dolgozni egy kicsit a kompromisszum megtalálásán.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="24dbede2"/>indítvány csiszolása</entry>
+                     <entry class="starter" valign="top">A szöveget a javaslattevő (szószóló) a megjegyzések alapján változtatgatja. A már meglévő támogatók a változtatások fényében fenntartják támogatásukat, vagy ha nem akkor szólnak.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="3a584426"/>indítványok további fényezése</entry>
+                     <entry class="starter" valign="top">A szószóló a vitaidőszakban is módosíthat a javaslaton, ehhez a támogatók ellenvetésének hiánya kell.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="ef9272e4"/>szavazás</entry>
+                     <entry class="starter" valign="top">A szavazás a csoport, plenáris döntéshozatal esetén a 42 teljes tagsága körében folyik, Condorcet módszerrel.<para/>A szavazás adott ideig tart (2 hét).</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section id="2. Indítvány, szavazólap">
+         <title>2. Indítvány, szavazólap</title>
+         <para/>
+         <table class="elementtable">
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <tbody>
+                  <row>
+                     <entry namest="c1" nameend="c2">
+                        <para>
+                           <figure>
+                              <title>indítvány, szavazólap</title>
+                              <remark/>
+                              <mediaobject>
+                                 <imageobject>
+                                    <imagedata fileref="pics/9a635bd1.png"/>
+                                 </imageobject>
+                              </mediaobject>
+                           </figure>
+                        </para>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="ad767a57"/>A fentiek egyike sem</entry>
+                     <entry class="starter" valign="top">A teljes döntési tér lefedését szolgáló javaslat. Minden szavazásnál meg kell jelennie.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="0525fb84"/>Alternatív indítvány(ok)</entry>
+                     <entry class="starter" valign="top">Egy vagy több olyan indítvány, amit az eredeti javaslat helyetti alternatívaként állított valaki.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="55994ba3"/>Elemzés</entry>
+                     <entry class="starter" valign="top">A javaslat elemzése tartalmazza a javaslat erősségeit, lehetőségeit, gyengeségeit és veszélyeit.<para/>A javaslatok elemzéséről az összes javaslat szószólóinak lehetőleg meg kell egyezniük.<para/>Ha egy kérdésben nincs megegyezés, akkor fel kell sorolni az adott dologra vonatkozó összes véleményt.<para/>A plenáris döntéshozatalban megjelenő javaslatoknak a szavazás idejére rendelkezniük kell elemzéssel.<para/>- Erősségek: azok a tényezők, amelyek más lehetőségekkel szemben előnyt jelentenek<para/>- Lehetőségek: olyan tényezők, amiket előnyösen ki lehet használni<para/>- Gyengeségek: azok a tényezők, amelyek más lehetőségekkelszembenhátrányt jelentenek<para/>- Veszélyek: olyan külső tényezők, korlátok, amelyek csökkentik a siker esélyeit, kockázatot jelentenek.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="4b03d987"/>Szavazólap</entry>
+                     <entry class="starter" valign="top">A szavazólap az összes javaslatot tartalmazza, rövid magyarázatokkal, és hivatkozással az alátámasztó anyagokra.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="79fcb0e5"/>célközönség</entry>
+                     <entry class="starter" valign="top">A javaslatoknál mindig meg kell adni, hogy mi azoknak a célközönsége, mit szeretnénk, mi történjen a megszavazott szöveggel</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="f5a94bbc"/>indítvány</entry>
+                     <entry class="starter" valign="top">A javaslat egy szöveg ebből lesz a TERV. Ha megszavazzuk.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <section id="indítvány célközönségek">
+            <title>indítvány célközönségek</title>
+            <para/>
+            <table class="elementtable">
+               <tgroup cols="2">
+                  <colspec colname="c1"/>
+                  <colspec colname="c2"/>
+                  <tbody>
+                     <row>
+                        <entry class="starter" valign="top">
+                           <anchor id="035dafc7"/>42 által kihirdetésre</entry>
+                        <entry class="starter" valign="top">A 42 legmagasabb szintű döntése. A 42 felületén kialakult konszenzus tükrözi, amely alapján a 42 megengedi a parlamenti pártoknak, és el is várja tőlük, hogy a megfelelő lépéseket megtegyék.</entry>
+                     </row>
+                     <row>
+                        <entry class="starter" valign="top">
+                           <anchor id="aba4e192"/>42-n belül kihírdetésre</entry>
+                        <entry class="starter" valign="top">A 42 felületén kialakult konszenzus, amivel kapcsolatban nem várjuk hogy a civil játszótéren kívül bárki bármit tegyen. (pl. egy véleményfelmérés kimenete)</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </section>
+      </section>
+      <section id="3. Tagság, csoport">
+         <title>3. Tagság, csoport</title>
+         <para/>
+         <table class="elementtable">
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <tbody>
+                  <row>
+                     <entry namest="c1" nameend="c2">
+                        <para>
+                           <figure>
+                              <title>Tagság, csoport</title>
+                              <remark/>
+                              <mediaobject>
+                                 <imageobject>
+                                    <imagedata fileref="pics/0aaf5ac1.png"/>
+                                 </imageobject>
+                              </mediaobject>
+                           </figure>
+                        </para>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="7a6a239c"/>42 tag</entry>
+                     <entry class="starter" valign="top">A 42-nek mindenki tagja lehet. Mindenkiből lehet egy-egy téma szószólója vagy támogatója, a döntéshozatali folyamat által meghatározott módon.<para/>Egy tag minden irányítási pontra nézve egy db elsődleges csoportnak a tagja. A tag a saját belátása szerint lehet más csoportok támogatója.<para/>A döntéshozatal minőségét a tagok valószínűtlenségi szintje határozza meg, amelyet azzal mérünk, hogy mennyire vagyunk bizonytalanok afelől, hogy a tag valóban az, akinek mondja magát. A cél az, hogy mindenki pontosan egyszer szerepeljen, de erre nem sikerült jobb módszert találni, mint hogy tudjuk, ki kicsoda.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="aa4feb5b"/>Egyéb adat</entry>
+                     <entry class="starter" valign="top">Vannak olyan adatok, amelyek szükségesek a támogatott folyamatokhoz, de nem segítik a val=színütlenségi szint csökkentését.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="e20bb440"/>Név, avatar</entry>
+                     <entry class="starter" valign="top">Igazából nem érdekes, hogy a regisztrált név egyezik-e a tag valódi nevével, és az avatarján ő szerepel-e.<para/>Mivel a név nem egyedi azonosító, nem alkalmas arra, hogy a valószínűtlenségi szintet csökkentsük vele.<para/>Annyi a lényege, hogy az emberek beszélgetés közben nagyjából felismerjék egymást.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="849cc4d6"/>azonosító adat</entry>
+                     <entry class="starter" valign="top">Az azonosító adat mindaz az adat, amit a tagról a valószínűtlenségi szint alacsonyan tartása érdekében nyilvántartunk.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="d6a9d512"/>email cím</entry>
+                     <entry class="starter" valign="top">Az email címre az értesítések kiküldéséhez, és a - legalábbis eleinte - szavazáshoz alkalmazott CIVS-hez szükséges.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="064749eb"/>facebook account</entry>
+                     <entry class="starter" valign="top">A facebook account azonosítja a felhasználót, és létezik validált facebook account, ahol a facebook valamilyen valószínűtlenségi szinttel elvégzi a felhasználó azonosítását. Valószínűleg első körben ezt tudjuk használni.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="fe65deec"/>személyi szám vagy személyi igazolvány szám</entry>
+                     <entry class="starter" valign="top">Ezek többé-kevésbé egyedi azonosítók.<para/>Hosszú távon jó megoldás lehet az, hogy a tagok egymásról tanúsítják, hogy megggyőződtek egymás valódiságáról ez alapján.<para/>A személyi szám a leginkább statikus, de adatvédelmi kérdéseket vet föl (amelyek nem feltétlenül megoldhatatlanok).<para/>A személyi igazolvány szám időben változhat.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="c130e272"/>valószínűtlenségi szint</entry>
+                     <entry class="starter" valign="top">A valószínűtlenségi szint azt mutatja meg, hogy mennyire valószíműtlen, hogy a tag valóban az, akinek mondja magát.<para/>Cél a tagok valószínűtlenségi szintjének leszorítása az 1:1 -hez minél közelebbi értékre, hiszen ettől függ a felmért vélemény valószínűtlenségi szintje is.</entry>
+                  </row>
+                  <row>
+                     <entry class="starter" valign="top">
+                        <anchor id="5206ccdc"/>ügyfélkapu azonosító</entry>
+                     <entry class="starter" valign="top">Elméletileg lehetséges lenne ugyanolyan szinten meggyőződni a személyazonosságról, mint azt az elektronikus ügyintézésnél tesszük.<para/>Az ügyfélkapu interfésze nyilvános. Egy gond van, hogy csak állami hivatalok használhatják.<para/>Ha ezt megoldjuk, még mindig megeshet, hogy véletlenül vagy "véletlenül" problémák támadnak az interfésszel.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
    </section>
-   <section id="1. döntéshozatali folyamat">
-      <title>1. döntéshozatali folyamat</title>
-      <para/>
-      <table class="elementtable">
-         <tgroup cols="2">
-            <colspec colname="c1"/>
-            <colspec colname="c2"/>
-            <tbody>
-               <row>
-                  <entry namest="c1" nameend="c2">
-                     <para>
-                        <figure>
-                           <title>döntéshozatali folyamat</title>
-                           <remark/>
-                           <mediaobject>
-                              <imageobject>
-                                 <imagedata fileref="pics/97923d60.png"/>
-                              </imageobject>
-                           </mediaobject>
-                        </figure>
-                     </para>
-                  </entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="b174336b"/>Alternatív indítvány szószóló</entry>
-                  <entry class="starter" valign="top">Az alternatív inditvány benyújtója lesz annak a szószólója</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="092788b0"/>Alternatív indítvány támogató</entry>
-                  <entry class="starter" valign="top">tudod, aki támogatott egy alternatív indítványt</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="e0eb8ba0"/>Alternatív indítvány(ok) előkészítése</entry>
-                  <entry class="starter" valign="top">Az alternatív indítványokat ugyanazzal a folyamattal készítjük el, mint a döntési javaslatot.<para/>A megfelelő számú támogatást a vitaidőszak befejeződése előtt el kell érni.  Ha egy alternatív indítvány elegendő támogatást gyűjtött össze, a vitaidőszak újraindul, hogy azt is lehessen fényezni.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="98ef95f0"/>Döntéshozatali folyamat</entry>
-                  <entry class="starter" valign="top">A döntéshozatali folyamatnak ez a része csoporton belüli és plenáris döntéshozatal esetén is lényegileg ugyanaz.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="183bb70b"/>Egyeztetett szószóló</entry>
-                  <entry class="starter" valign="top">Aki a nyertes javaslatot benyújtotta, az lesz annak a szószólója a szavazás után is.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="0d56975d"/>Elegendő támogatás gyűlt össze</entry>
-                  <entry class="starter" valign="top">Egy indítvány formálissá válásához sqrt(N)  támogatás kell. N a 42 taglétszáma.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="679eeeba"/>Indítvány elkészítése</entry>
-                  <entry class="starter" valign="top">Ez a folyamat vezet egy formális javaslathoz. A lényege az, hogy össze kell gyűljön elegendő támogatás a javaslat részére.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="47748531"/>Indítvány megtétele</entry>
-                  <entry class="starter" valign="top">Az indítványt a megfelelő helyen annak gazdája közzéteszi</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="daddaf03"/>Szószóló</entry>
-                  <entry class="starter" valign="top">Az indítvány közzétevője a szószóló. A szószóló dolga és felelőssége, hogy az indítványt folyamatosan javítsa, az alternatív indítványok szószólóival egyeztessen, az indítványhoz indoklást és swot analízist készítsen.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="43f9e399"/>Támogatás gyűjtése</entry>
-                  <entry class="starter" valign="top">Az indítvány akkor formalizálódik, ha a formai követelményeknek megfelel, és elegendő mennyiségű támogató gyűlik össze.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="584ec06e"/>Támogató</entry>
-                  <entry class="starter" valign="top">Egy indítvány támogatója az, aki kifejezte, hogy egy indítványt támogat. A támogató figyeli az indítvány változásait, és ha nem megfelelő változást lát, a támogatást visszavonhatja.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="41f05af4"/>Vitaidószak</entry>
-                  <entry class="starter" valign="top">A vitaidőszaknak van egy minimum hossza (2 hét). Azt szükség esetén meg lehet hosszabbítani, alternatív indítvány beérkezése esetén újraindul.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="61c4e134"/>Vitaidőszak vége</entry>
-                  <entry class="starter" valign="top">A vitaidőszak lejártával megkezdődik a szavazás.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="f26f6b9e"/>a 42 felületén kialakult konszenzus</entry>
-                  <entry class="starter" valign="top">A 42 felületén kialakult konszenzusnak tekintjük azt az indítványt, amelyik megnyerte a szavazást.<para/>A "fentiek egyike sem" nyerése esetén az az egyeztetett konszenzus, hogy nincs megegyezés. Ilyenkor érdemes még dolgozni egy kicsit a kompromisszum megtalálásán.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="24dbede2"/>indítvány csiszolása</entry>
-                  <entry class="starter" valign="top">A szöveget a javaslattevő (szószóló) a megjegyzések alapján változtatgatja. A már meglévő támogatók a változtatások fényében fenntartják támogatásukat, vagy ha nem akkor szólnak.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="3a584426"/>indítványok további fényezése</entry>
-                  <entry class="starter" valign="top">A szószóló a vitaidőszakban is módosíthat a javaslaton, ehhez a támogatók ellenvetésének hiánya kell.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="ef9272e4"/>szavazás</entry>
-                  <entry class="starter" valign="top">A szavazás a csoport, plenáris döntéshozatal esetén a 42 teljes tagsága körében folyik, Condorcet módszerrel.<para/>A szavazás adott ideig tart (2 hét).</entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-   </section>
-   <section id="2. Tagság, csoport">
-      <title>2. Tagság, csoport</title>
-      <para/>
-      <table class="elementtable">
-         <tgroup cols="2">
-            <colspec colname="c1"/>
-            <colspec colname="c2"/>
-            <tbody>
-               <row>
-                  <entry namest="c1" nameend="c2">
-                     <para>
-                        <figure>
-                           <title>Tagság, csoport</title>
-                           <remark/>
-                           <mediaobject>
-                              <imageobject>
-                                 <imagedata fileref="pics/0aaf5ac1.png"/>
-                              </imageobject>
-                           </mediaobject>
-                        </figure>
-                     </para>
-                  </entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="7a6a239c"/>42 tag</entry>
-                  <entry class="starter" valign="top">A 42-nek mindenki tagja lehet. Mindenkiből lehet egy-egy téma szószólója vagy támogatója, a döntéshozatali folyamat által meghatározott módon.<para/>Egy tag minden irányítási pontra nézve egy db elsődleges csoportnak a tagja. A tag a saját belátása szerint lehet más csoportok támogatója.<para/>A döntéshozatal minőségét a tagok valószínűtlenségi szintje határozza meg, amelyet azzal mérünk, hogy mennyire vagyunk bizonytalanok afelől, hogy a tag valóban az, akinek mondja magát. A cél az, hogy mindenki pontosan egyszer szerepeljen, de erre nem sikerült jobb módszert találni, mint hogy tudjuk, ki kicsoda.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="aa4feb5b"/>Egyéb adat</entry>
-                  <entry class="starter" valign="top">Vannak olyan adatok, amelyek szükségesek a támogatott folyamatokhoz, de nem segítik a val=színütlenségi szint csökkentését.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="e20bb440"/>Név, avatar</entry>
-                  <entry class="starter" valign="top">Igazából nem érdekes, hogy a regisztrált név egyezik-e a tag valódi nevével, és az avatarján ő szerepel-e.<para/>Mivel a név nem egyedi azonosító, nem alkalmas arra, hogy a valószínűtlenségi szintet csökkentsük vele.<para/>Annyi a lényege, hogy az emberek beszélgetés közben nagyjából felismerjék egymást.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="849cc4d6"/>azonosító adat</entry>
-                  <entry class="starter" valign="top">Az azonosító adat mindaz az adat, amit a tagról a valószínűtlenségi szint alacsonyan tartása érdekében nyilvántartunk.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="d6a9d512"/>email cím</entry>
-                  <entry class="starter" valign="top">Az email címre az értesítések kiküldéséhez, és a - legalábbis eleinte - szavazáshoz alkalmazott CIVS-hez szükséges.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="064749eb"/>facebook account</entry>
-                  <entry class="starter" valign="top">A facebook account azonosítja a felhasználót, és létezik validált facebook account, ahol a facebook valamilyen valószínűtlenségi szinttel elvégzi a felhasználó azonosítását. Valószínűleg első körben ezt tudjuk használni.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="fe65deec"/>személyi szám vagy személyi igazolvány szám</entry>
-                  <entry class="starter" valign="top">Ezek többé-kevésbé egyedi azonosítók.<para/>Hosszú távon jó megoldás lehet az, hogy a tagok egymásról tanúsítják, hogy megggyőződtek egymás valódiságáról ez alapján.<para/>A személyi szám a leginkább statikus, de adatvédelmi kérdéseket vet föl (amelyek nem feltétlenül megoldhatatlanok).<para/>A személyi igazolvány szám időben változhat.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="c130e272"/>valószínűtlenségi szint</entry>
-                  <entry class="starter" valign="top">A valószínűtlenségi szint azt mutatja meg, hogy mennyire valószíműtlen, hogy a tag valóban az, akinek mondja magát.<para/>Cél a tagok valószínűtlenségi szintjének leszorítása az 1:1 -hez minél közelebbi értékre, hiszen ettől függ a felmért vélemény valószínűtlenségi szintje is.</entry>
-               </row>
-               <row>
-                  <entry class="starter" valign="top">
-                     <anchor id="5206ccdc"/>ügyfélkapu azonosító</entry>
-                  <entry class="starter" valign="top">Elméletileg lehetséges lenne ugyanolyan szinten meggyőződni a személyazonosságról, mint azt az elektronikus ügyintézésnél tesszük.<para/>Az ügyfélkapu interfésze nyilvános. Egy gond van, hogy csak állami hivatalok használhatják.<para/>Ha ezt megoldjuk, még mindig megeshet, hogy véletlenül vagy "véletlenül" problémák támadnak az interfésszel.</entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-   </section>
-   <section id="Folyamatok">
-      <title>Folyamatok</title>
+   <section id="1. Folyamatok">
+      <title>1. Folyamatok</title>
       <para/>
       <section id="Belépés, csoportműveletek">
          <title>Belépés, csoportműveletek</title>
@@ -330,8 +413,8 @@
          </section>
       </section>
    </section>
-   <section id="Indítvány, szavazólap">
-      <title>Indítvány, szavazólap</title>
+   <section id="2. Alkalmazás architektúra">
+      <title>2. Alkalmazás architektúra</title>
       <para/>
       <table class="elementtable">
          <tgroup cols="2">
@@ -342,11 +425,11 @@
                   <entry namest="c1" nameend="c2">
                      <para>
                         <figure>
-                           <title>indítvány, szavazólap</title>
+                           <title>alkalmazás</title>
                            <remark/>
                            <mediaobject>
                               <imageobject>
-                                 <imagedata fileref="pics/9a635bd1.png"/>
+                                 <imagedata fileref="pics/64bb559d.png"/>
                               </imageobject>
                            </mediaobject>
                         </figure>
@@ -355,58 +438,76 @@
                </row>
                <row>
                   <entry class="starter" valign="top">
-                     <anchor id="ad767a57"/>A fentiek egyike sem</entry>
-                  <entry class="starter" valign="top">A teljes döntési tér lefedését szolgáló javaslat. Minden szavazásnál meg kell jelennie.</entry>
+                     <anchor id="c185e20d"/>42 gépház</entry>
+                  <entry class="starter" valign="top"/>
                </row>
                <row>
                   <entry class="starter" valign="top">
-                     <anchor id="0525fb84"/>Alternatív indítvány(ok)</entry>
-                  <entry class="starter" valign="top">Egy vagy több olyan indítvány, amit az eredeti javaslat helyetti alternatívaként állított valaki.</entry>
+                     <anchor id="219b7b9d"/>42 infrastruktúra</entry>
+                  <entry class="starter" valign="top"/>
                </row>
                <row>
                   <entry class="starter" valign="top">
-                     <anchor id="55994ba3"/>Elemzés</entry>
-                  <entry class="starter" valign="top">A javaslat elemzése tartalmazza a javaslat erősségeit, lehetőségeit, gyengeségeit és veszélyeit.<para/>A javaslatok elemzéséről az összes javaslat szószólóinak lehetőleg meg kell egyezniük.<para/>Ha egy kérdésben nincs megegyezés, akkor fel kell sorolni az adott dologra vonatkozó összes véleményt.<para/>A plenáris döntéshozatalban megjelenő javaslatoknak a szavazás idejére rendelkezniük kell elemzéssel.<para/>- Erősségek: azok a tényezők, amelyek más lehetőségekkel szemben előnyt jelentenek<para/>- Lehetőségek: olyan tényezők, amiket előnyösen ki lehet használni<para/>- Gyengeségek: azok a tényezők, amelyek más lehetőségekkelszembenhátrányt jelentenek<para/>- Veszélyek: olyan külső tényezők, korlátok, amelyek csökkentik a siker esélyeit, kockázatot jelentenek.</entry>
+                     <anchor id="13605b08"/>42 közösség</entry>
+                  <entry class="starter" valign="top"/>
                </row>
                <row>
                   <entry class="starter" valign="top">
-                     <anchor id="4b03d987"/>Szavazólap</entry>
-                  <entry class="starter" valign="top">A szavazólap az összes javaslatot tartalmazza, rövid magyarázatokkal, és hivatkozással az alátámasztó anyagokra.</entry>
+                     <anchor id="edd4b25e"/>42 redmine</entry>
+                  <entry class="starter" valign="top"/>
                </row>
                <row>
                   <entry class="starter" valign="top">
-                     <anchor id="79fcb0e5"/>célközönség</entry>
-                  <entry class="starter" valign="top">A javaslatoknál mindig meg kell adni, hogy mi azoknak a célközönsége, mit szeretnénk, mi történjen a megszavazott szöveggel</entry>
+                     <anchor id="00d9040b"/>Backup</entry>
+                  <entry class="starter" valign="top"/>
                </row>
                <row>
                   <entry class="starter" valign="top">
-                     <anchor id="f5a94bbc"/>indítvány</entry>
-                  <entry class="starter" valign="top">A javaslat egy szöveg ebből lesz a TERV. Ha megszavazzuk.</entry>
+                     <anchor id="af55e1f2"/>Backup</entry>
+                  <entry class="starter" valign="top"/>
+               </row>
+               <row>
+                  <entry class="starter" valign="top">
+                     <anchor id="73669f5d"/>Filetár</entry>
+                  <entry class="starter" valign="top"/>
+               </row>
+               <row>
+                  <entry class="starter" valign="top">
+                     <anchor id="6996e264"/>Fórum</entry>
+                  <entry class="starter" valign="top"/>
+               </row>
+               <row>
+                  <entry class="starter" valign="top">
+                     <anchor id="326044e4"/>GÉP</entry>
+                  <entry class="starter" valign="top"/>
+               </row>
+               <row>
+                  <entry class="starter" valign="top">
+                     <anchor id="14e88989"/>Jegykezelő</entry>
+                  <entry class="starter" valign="top"/>
+               </row>
+               <row>
+                  <entry class="starter" valign="top">
+                     <anchor id="40f86214"/>Wiki</entry>
+                  <entry class="starter" valign="top"/>
+               </row>
+               <row>
+                  <entry class="starter" valign="top">
+                     <anchor id="39007b01"/>gépház redmine</entry>
+                  <entry class="starter" valign="top"/>
+               </row>
+               <row>
+                  <entry class="starter" valign="top">
+                     <anchor id="9a47409f"/>közösségi redmine</entry>
+                  <entry class="starter" valign="top"/>
+               </row>
+               <row>
+                  <entry class="starter" valign="top">
+                     <anchor id="43ea6140"/>közösségi wordpress</entry>
+                  <entry class="starter" valign="top"/>
                </row>
             </tbody>
          </tgroup>
       </table>
-      <section id="indítvány célközönségek">
-         <title>indítvány célközönségek</title>
-         <para/>
-         <table class="elementtable">
-            <tgroup cols="2">
-               <colspec colname="c1"/>
-               <colspec colname="c2"/>
-               <tbody>
-                  <row>
-                     <entry class="starter" valign="top">
-                        <anchor id="035dafc7"/>42 által kihirdetésre</entry>
-                     <entry class="starter" valign="top">A 42 legmagasabb szintű döntése. A 42 felületén kialakult konszenzus tükrözi, amely alapján a 42 megengedi a parlamenti pártoknak, és el is várja tőlük, hogy a megfelelő lépéseket megtegyék.</entry>
-                  </row>
-                  <row>
-                     <entry class="starter" valign="top">
-                        <anchor id="aba4e192"/>42-n belül kihírdetésre</entry>
-                     <entry class="starter" valign="top">A 42 felületén kialakult konszenzus, amivel kapcsolatban nem várjuk hogy a civil játszótéren kívül bárki bármit tegyen. (pl. egy véleményfelmérés kimenete)</entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </section>
    </section>
 </article>
